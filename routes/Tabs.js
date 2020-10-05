@@ -12,8 +12,13 @@ export const Tabs = () => {
     <Tab.Navigator
       initialRouteName="Home"
       tabBarOptions={{
-        activeTintColor: '#333',
-        labelStyle: { fontFamily: 'montserrat-regular', fontSize: 12 },
+        activeTintColor: '#ddd',
+        indicatorStyle: { backgroundColor: '#0d47a1' },
+        labelStyle: {
+          fontFamily: 'montserrat-regular',
+          fontSize: 14,
+          color: '#0d47a1'
+        },
         style: { backgroundColor: '#fafafa' },
         initialLayout: {
           width: Dimensions.get('window').width

@@ -1,4 +1,5 @@
-import 'react-native-get-random-values';
+// import 'react-native-get-random-values'; (expo sdk 39+)
+import { StatusBar } from 'expo-status-bar';
 import 'react-native-gesture-handler';
 import React, { useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -20,6 +21,7 @@ export default function App() {
   if (fontsLoaded) {
     return (
       <NavigationContainer>
+        <StatusBar style="auto" />
         <Header />
         <TransactionContextProvider>
           <Tabs />
