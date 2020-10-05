@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Manage cash with HomeBank",
+    "githubUrl": "https://github.com/vijay-tiwari-vj/HomeBank"
   }
 }
